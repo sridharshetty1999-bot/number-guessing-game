@@ -1,18 +1,34 @@
-# number-guessing-game
-Number Guessing Game (Python)
 
-This is a simple Python number guessing game where the computer randomly selects a number and the player has a limited number of attempts to guess it.
+Password Generator (Python)
+Description
 
-How the Game Works
+This is a simple Python program that generates random passwords.
+Each password:
 
-The player is asked for their name.
+Uses lowercase letters
 
-The program randomly chooses a number between 1 and 200.
+Contains at least one number
 
-The player has 6 attempts to guess the correct number.
+Contains at least one uppercase letter
 
-After each guess, the program tells the player if the guess is too low or too high.
+Has a minimum length of 3
 
-If the player guesses correctly, the game congratulates them.
+How It Works
 
-After the game ends, the player can choose to play again.
+The program asks how many passwords you want to generate.
+
+For each password, the user enters the desired length.
+
+The program creates a random password using lowercase letters.
+
+One character is replaced with a number.
+
+One character is replaced with an uppercase letter.
+
+The generated passwords are displayed on the screen.
+
+Requirements
+
+Python 3.x
+
+Uses built-in random and string modules
